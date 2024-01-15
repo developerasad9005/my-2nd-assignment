@@ -1,5 +1,5 @@
-@media screen and (max-width:640px) {
-        .nav-area,.banner-form form{
+@media screen and (max-width:675px) {
+        .nav-area,.banner-form form,.popular-tour{
             flex-direction: column;
         }
        .container{
@@ -13,5 +13,12 @@
        }
        .nav{
         display: none;
+       }
+       .popular-tour-img img{
+        width: 100%;
+        margin-top: 20px;
+       }
+       .section-title{
+        font-size: 1.50rem;
        }
 }

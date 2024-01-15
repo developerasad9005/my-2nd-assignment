@@ -18,9 +18,35 @@
 header,
 section {
     margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 /* shared style */
+.section-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    background-color: #FF5400;
+    border-radius: 8px;
+}
 
 /* header style */
 .nav-area {
@@ -93,6 +119,11 @@ nav ul li a {
     display: flex;
     justify-content: center;
     margin-top: 4rem;
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+    width: 62%;
+    margin: 60px auto;
+    border-radius: 8px;
 }
 
 .banner-form form {
@@ -121,4 +152,21 @@ select {
     border: none;
     outline: none;
     color: white;
+}
+
+/* Tour section */
+
+.tour-point {
+    padding: 0px 20px;
+}
+
+.tour-point ul li {
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.popular-tour {
+    display: flex;
+    justify-content: space-between;
 }
