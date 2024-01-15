@@ -1,0 +1,17 @@
+@media screen and (max-width:640px) {
+        .nav-area,.banner-form form{
+            flex-direction: column;
+        }
+       .container{
+        max-width: 90%;
+       }
+       .banner .banner-title{
+        font-size: 2rem;
+       }
+       .banner{
+        width: 100%;
+       }
+       .nav{
+        display: none;
+       }
+}

@@ -1,0 +1,124 @@
+/* font fmaily  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* global style  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0px auto;
+}
+
+header,
+section {
+    margin-top: 60px;
+}
+
+/* shared style */
+
+/* header style */
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.logo-title {
+    color: #131318;
+    font-size: 2.10rem;
+    font-weight: 800;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo h3>span {
+    color: #FF5400;
+}
+
+/* banner section */
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 110px 0px;
+    border-radius: 10px;
+}
+
+.banner .banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content p {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.banner-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.banner-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.banner-form form input,
+select {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 175px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.banner-form-button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    padding: 16px 35px;
+    border: none;
+    outline: none;
+    color: white;
+}
