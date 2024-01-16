@@ -156,6 +156,7 @@ select {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .banner-form-button svg {
@@ -256,6 +257,54 @@ p {
     height: 100%;
 }
 
+/* select section */
+.select-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.child {
+    width: 600px;
+    padding: 30px 40px 30px 30px;
+}
+
+.child h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.child1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.child2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.child3 {
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 20px;
+}
+
+.child p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 16px;
+}
+
 /* place style */
 .place {
     display: flex;
@@ -341,6 +390,7 @@ p {
     font-size: 1rem;
     margin-bottom: 0px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .form-hr {
