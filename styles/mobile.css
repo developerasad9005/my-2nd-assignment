@@ -22,4 +22,9 @@
        .section-title{
         font-size: 1.50rem;
        }
+       .news-pic{
+        width: 100%;
+        height: 100%;
+        padding: 200px;
+       }
 }
