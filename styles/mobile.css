@@ -1,6 +1,7 @@
 @media screen and (max-width:675px) {
-        .nav-area,.banner-form form,.popular-tour{
+        .nav-area,.banner-form form,.popular-tour,.newsletter{
             flex-direction: column;
+            gap: 20px;
         }
        .container{
         max-width: 90%;
