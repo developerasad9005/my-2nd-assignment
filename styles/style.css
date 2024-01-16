@@ -79,7 +79,9 @@ nav ul li a {
     align-items: center;
     gap: 10px;
 }
-
+.bar{
+    display: none;
+}
 .logo {
     display: flex;
     gap: 10px;
