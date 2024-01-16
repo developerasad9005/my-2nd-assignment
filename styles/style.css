@@ -157,7 +157,8 @@ select {
     align-items: center;
     gap: 10px;
 }
-.banner-form-button svg{
+
+.banner-form-button svg {
     color: white;
 }
 
@@ -218,6 +219,41 @@ p {
     grid-template-rows: auto auto auto;  */
 }
 
+/* place style */
+.place {
+    display: flex;
+    gap: 30px;
+}
+.place-content p{
+    text-align: left;
+}
+.place-image{
+    background: url('../Images/Group40089.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 175px 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.place-image h3{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.place-content ul li {
+    margin-bottom: 20px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 20px;
+}
+
 /* newletter style */
 .newsletter {
     display: flex;
@@ -252,7 +288,8 @@ p {
     text-align: left;
     margin-bottom: 20px;
 }
-.news-form-button{
+
+.news-form-button {
     background-color: #FF5400;
     border: none;
     outline: none;
@@ -263,7 +300,8 @@ p {
     margin-bottom: 0px;
     margin-top: 20px;
 }
-.form-hr{
+
+.form-hr {
     height: 1px;
     width: 100%;
     background: #ddd;
