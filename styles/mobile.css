@@ -1,5 +1,5 @@
 @media screen and (max-width:675px) {
-        .nav-area,.banner-form form,.popular-tour,.newsletter,.place{
+        .nav-area,.banner-form form,.popular-tour,.newsletter,.place,.followe-area{
             flex-direction: column;
             gap: 20px;
         }
@@ -55,5 +55,8 @@
        .banner-content p {
         width: 70%;
         margin: auto;
+    }
+    .fllower-child{
+        width: 100%;
     }
 }
