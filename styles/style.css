@@ -11,7 +11,7 @@
 }
 
 .container {
-    max-width: 75%;
+    max-width: 62%;
     margin: 0px auto;
 }
 
@@ -122,7 +122,7 @@ nav ul li a {
     margin-top: 4rem;
     background-color: rgba(255, 255, 255, 0.30);
     padding: 15px;
-    width: 62%;
+    width: 70%;
     margin: 60px auto;
     border-radius: 8px;
 }
@@ -153,6 +153,12 @@ select {
     border: none;
     outline: none;
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-form-button svg{
+    color: white;
 }
 
 /* Tour section */
@@ -171,6 +177,7 @@ select {
 .popular-tour {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 /* destination section style */
