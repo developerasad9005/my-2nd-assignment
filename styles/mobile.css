@@ -83,6 +83,10 @@
     .news-form form input{
         padding-right: 50px;
     }
+    .btn-primary{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
     
 }
 @media screen and (max-width:400px){
@@ -105,10 +109,6 @@
     }
     .deal-child ul{
         flex-direction: column;
-    }
-    .btn-primary{
-        padding: 10px 15px;
-        font-size: 14px;
     }
     .news-pic{
         padding: 140px 20px;

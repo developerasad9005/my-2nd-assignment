@@ -1,0 +1,87 @@
+@media screen and (max-width:800px) {
+    .banner-form form,.popular-tour,.newsletter,.place,.followe-area{
+        flex-direction: column;
+        gap: 20px;
+    }
+   .container{
+    max-width: 90%;
+   }
+   .banner .banner-title{
+    font-size: 2rem;
+   }
+   .banner{
+    width: 100%;
+   }
+   .nav{
+    position: relative;
+   }
+   .nav ul{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    padding: 20px;
+    position: absolute;
+    top: -950px;
+   }
+   .nav ul li a{
+    color: white;
+   }
+   .popular-tour-img img{
+    width: 100%;
+    margin-top: 20px;
+   }
+   .section-title{
+    font-size: 1.50rem;
+   }
+   .news-pic{
+    width: 100%;
+    height: 100%;
+    padding: 170px;
+   }
+   .destination-container, .select-area{
+    display: flex;
+    flex-direction: column;
+   }
+   .select-area{
+    gap: 20px;
+   }
+ .child{
+    width: 100%;
+   }
+   .deal-child{
+    margin-bottom: 20px;
+    padding: 30px 10px;
+    width: 290px;
+   }
+   .date-time ul li{
+    font-size: 12px;
+   }
+   .date-time ul li svg{
+    width: 12px;
+    height: 12px;
+   }
+   .deal-area{
+    display: block;
+    margin: 0;
+   }
+   .banner-content p {
+    width: 70%;
+    margin: auto;
+}
+.fllower-child{
+    width: 100%;
+}
+.bar{
+    display: inline-block;
+}
+.logo-title{
+    font-size: 25px;
+}
+.logo img{
+    width: 25px;
+}
+.news-form form input{
+    padding-right: 50px;
+}
+
+}
