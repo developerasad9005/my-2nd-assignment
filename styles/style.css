@@ -9,6 +9,10 @@
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
+body{
+    width: 100%;
+    margin: 0 auto;
+}
 
 .container {
     max-width: 1240px;
