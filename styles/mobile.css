@@ -80,13 +80,43 @@
     .logo img{
         width: 25px;
     }
+    .news-form form input{
+        padding-right: 50px;
+    }
     
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:400px){
     .logo-title{
         font-size: 18px;
     }
     .logo img{
         width: 20px;
     }
+    .deal-child{
+        margin-right: 0px;
+        width: 240px;
+    }
+    .deal-child h2{
+        font-size: 18px;
+    }
+    .deal-child p{
+        font-size: 14px;
+        margin: 0;
+    }
+    .deal-child ul{
+        flex-direction: column;
+    }
+    .deal-child button{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .news-pic{
+        padding: 140px 20px;
+    }
+    .news-batch {
+        width: 284px;
+        padding: 20px;
+        bottom: 53px;
+        right: 4px;
+}
 }
